@@ -7,5 +7,5 @@ services:
     build:
       context: .
       dockerfile: TestAPI_2_1_Kestrel/Dockerfile
-#    ports:
-#     - "50001:50001"
+    ports:
+     - 81:50001
