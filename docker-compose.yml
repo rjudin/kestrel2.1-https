@@ -8,4 +8,5 @@ services:
       context: .
       dockerfile: TestAPI_2_1_Kestrel/Dockerfile
     ports:
-     - 81:50001
+     - 81:81
+     - 82:82
