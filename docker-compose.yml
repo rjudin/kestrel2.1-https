@@ -1,0 +1,11 @@
+# To co używa aplikacja jest w launchSettings.json
+version: '3.4'
+
+services:
+  testapi_2_1_kestrel:
+    image: testapi_2_1_kestrel
+    build:
+      context: .
+      dockerfile: TestAPI_2_1_Kestrel/Dockerfile
+#    ports:
+#     - "50001:50001"
